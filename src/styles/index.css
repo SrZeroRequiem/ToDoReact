@@ -1,12 +1,24 @@
+body {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(rgb(237, 160, 59) 0.5px, transparent 0.5px), radial-gradient(rgb(249, 165, 55) 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+}
 
-/* 
+input:focus {
+    outline: none;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.todo-task,
+.todo-input {
+    background-color: whitesmoke;
+}
 
-*/
+.delete-button {
+    cursor: pointer;
+}
+
+.todoListContainer {
+    box-shadow: rgba(123, 123, 123, 0.8) 0px 6px 0px -2px, rgba(88, 88, 88, 0.4) 0px 12px 0px -3px;
+}
